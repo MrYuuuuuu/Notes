@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_edit"
+        android:iconTint="@android:color/widget_edittext_dark"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_collect"
+        android:icon="@drawable/ic_star_border"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="删除" />
+    <item
+        android:id="@+id/action_lock"
+        android:title="锁定" />
+    <item
+        android:id="@+id/action_send_reminding"
+        android:title="发送至提醒" />
+    <item
+        android:id="@+id/action_print"
+        android:title="打印" />
+</menu>
